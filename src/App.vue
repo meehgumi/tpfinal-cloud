@@ -4,8 +4,15 @@ const today = new Date().toLocaleDateString('fr-FR')
 </script>
 <template>
   <header>
-    <p>Nom : BRUNET Mehdi-Paul</p>
+    <p class="test">Nom : BRUNET Mehdi-Paul</p>
     <p>Date : {{ today }}</p>
     <p>Build : {{ buildId }}</p>
   </header>
 </template>
+
+<style>
+.test{
+  color: pink;
+}
+
+</style>
