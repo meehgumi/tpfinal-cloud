@@ -12,7 +12,7 @@ const today = new Date().toLocaleDateString('fr-FR')
 
 <style>
 .name{
-  color: red;
+  color: blue;
 }
 
 </style>
